@@ -32,24 +32,25 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 * Role: Developer
 * Responsibilities: Integration, Git expert
 
-### Jane Doe
+### Travis Sim
 
-<img src="images/johndoe.png" width="200px">
+<img src="images/travisim.png" width="200px">
 
-[[github](http://github.com/johndoe)]
+[[github](http://github.com/travisim)]
+[[portfolio](team/travisim.md)]
+
+* Role: Deliverables and deadlines
+* Responsibilities: Ensure project deliverables are done on time and in the right format.
+
+### CHong Tze Zhao
+
+<img src="images/chongtzezhao.png" width="200px">
+
+[[github](http://github.com/chongtzezhao)]
 [[portfolio](team/johndoe.md)]
 
-* Role: Team Lead
-* Responsibilities: UI
-
-### Johnny Doe
-
-<img src="images/johndoe.png" width="200px">
-
-[[github](http://github.com/johndoe)] [[portfolio](team/johndoe.md)]
-
 * Role: Developer
-* Responsibilities: Data
+* Responsibilities: Looks after feature development
 
 ### Jean Doe
 
@@ -60,3 +61,15 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 * Role: Developer
 * Responsibilities: Dev Ops + Threading
+
+
+### Zhang Yuxiang
+        
+<img src="images/therarefox.png" width="200px">
+
+[[github](http://github.com/TheRareFox)]
+[[portfolio](team/johndoe.md)]
+
+* Role: Code quality
+* Responsibilities: Looks after code quality, ensures adherence to coding standards, etc.
+
