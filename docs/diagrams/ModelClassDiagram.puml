@@ -24,6 +24,7 @@ Class Network
 Class PublicAddress
 
 
+
 Class I #FFFFFF
 }
 
@@ -47,6 +48,7 @@ Person *--> Email
 Person *--> Address
 Person *--> PublicAddressComposition
 Person *--> "*" Tag
+Person *--> "*" PublicAddress
 
 PublicAddressComposition *--> "*" Network
 PublicAddressComposition *--> "*" PublicAddress
