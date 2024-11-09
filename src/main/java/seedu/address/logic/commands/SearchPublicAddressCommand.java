@@ -93,7 +93,7 @@ public class SearchPublicAddressCommand extends Command {
                     publicAddressString))
                 .reduce((a, b) -> a + "\n" + b)
                 .orElse("");
-            output = String.format(message, publicAddressString.toLowerCase() + "\n" + personsDetails);
+            output = String.format(message, publicAddressString + "\n" + personsDetails);
         } else {
             String message = MESSAGE_SEARCH_PUBLIC_ADDRESS_SUCCESS_NOT_FOUND;
             output = String.format(message, publicAddressString);

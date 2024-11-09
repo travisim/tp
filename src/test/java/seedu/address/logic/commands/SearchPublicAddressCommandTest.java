@@ -57,7 +57,7 @@ public class SearchPublicAddressCommandTest {
             Set.of(new SolAddress(VALID_PUBLIC_ADDRESS_SOL_SUB_STRING, "sub"))));
         String expectedMessage =
             String.format(SearchPublicAddressCommand.MESSAGE_SEARCH_PUBLIC_ADDRESS_SUCCESS_FOUND,
-                VALID_PUBLIC_ADDRESS_SOL_SUB_STRING.toLowerCase() + "\n"
+                VALID_PUBLIC_ADDRESS_SOL_SUB_STRING + "\n"
                     + secondPerson.getName() + "\n" + INDENT
                     + publicAddressesComposition.toStringIndented());
 
@@ -83,7 +83,7 @@ public class SearchPublicAddressCommandTest {
 
         String expectedMessage =
             String.format(MESSAGE_SEARCH_PUBLIC_ADDRESS_SUCCESS_FOUND,
-                VALID_PUBLIC_ADDRESS_SOL_MAIN_STRING.toLowerCase() + "\n"
+                VALID_PUBLIC_ADDRESS_SOL_MAIN_STRING + "\n"
                     + secondPerson.getName() + "\n" + INDENT
                     + publicAddressesCompositionSol.toStringIndented() + "\n"
                     + thirdPerson.getName() + "\n" + INDENT

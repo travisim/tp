@@ -459,7 +459,7 @@ public class PublicAddressesComposition {
                     .append(address.getLabel())
                     .append(":\n")
                     .append(INDENT + INDENT + INDENT + INDENT)
-                    .append(address.getPublicAddressString().toLowerCase())
+                    .append(address.getPublicAddressString())
                     .append("\n");
             });
         });

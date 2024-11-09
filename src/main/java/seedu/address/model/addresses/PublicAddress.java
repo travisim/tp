@@ -118,7 +118,7 @@ public abstract class PublicAddress {
      * @return String
      */
     public String getPublicAddressString() {
-        return publicAddress.toLowerCase();
+        return publicAddress;
     }
 
     /**
